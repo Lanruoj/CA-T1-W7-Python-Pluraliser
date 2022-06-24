@@ -1,0 +1,18 @@
+_welcome() function:
+- Greet the user
+- Explain what program does
+
+_print_output() function:
+- print result of _pluralise() function in this format:
+    - "The plural form of {word} is {result}"
+
+_pluralise(str()) function:
+- Take user input
+- Check if word is: "fish", "sheep" or "bison"
+    - if true, return word
+    - if false, do nothing
+- Check if word ends in -s, -ss, -sh, -ch, -x, or -z
+    - if true, add "es" to end of word
+    - if false, do nothing
+- Otherwise
+    - add "s" to end of word
