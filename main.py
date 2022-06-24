@@ -4,8 +4,8 @@ def welcome():
     This program will pluralise words for you. 
     All you need to do is enter a word and I will give you the plural form.""")
 
-def print_result(result):
-    print(f"The plural form of that word is: {result}")
+def print_result(input, result):
+    print(f"The plural form of '{input}' is: '{result}'")
 
 #------#
 
@@ -18,7 +18,7 @@ def pluralise():
     else:
         result = f"{word}s"
     
-    print_result(result)
+    print_result(word, result)
 
 welcome()
 pluralise()
